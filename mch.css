@@ -1,0 +1,30 @@
+h3
+{
+    font-size: 30px !important;
+    width: 70%;
+    border: 10px dashed rgb(85, 3, 85);
+}
+.btn-danger:hover
+{
+   background-color:mediumpurple;
+
+}
+button
+{
+    
+    width: 200px;
+    height: 60px;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+
+}
+@keyframes example
+{
+from {box-shadow: 1px 1px 38px crimson;}
+to {box-shadow:  1px 1px 38px gold;}
+}
